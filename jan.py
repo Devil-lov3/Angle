@@ -1,5 +1,10 @@
-#!/usr/bin/python2
 # -*- coding: utf-8
+
+
+
+#!/usr/bin/python2
+
+
 
 [1;91m-----------------------------------------------
 [1;93m{~} [0;92mAUTHOR > [1;96mSyed_Ahmed_Shah
@@ -834,4 +839,3 @@ def ex_id():
 
 if __name__ == '__main__':
 	main()
-Ahmed
