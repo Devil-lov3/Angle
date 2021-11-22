@@ -6,7 +6,7 @@
 
 
 
-[1;91m-----------------------------------------------
+
 [1;93m{~} [0;92mAUTHOR > [1;96mSyed_Ahmed_Shah
 [1;92m{~} [0;95mFACEBOOK > [1;94m‎‎MASOOM_LARKA (D3V1L)
 [1;94m{~} [0;96mLINK > [1;91mhttps://www.facebook.com/lathiya.milna
@@ -18,7 +18,7 @@ try:
 	from requests.exceptions import ConnectionError
 except ImportError:
 	os.system("pip2 install requests")
-	os.system("python2 fcpro.py")
+	os.system("python2 jan.py")
 
 from os import system
 from time import sleep
@@ -63,15 +63,7 @@ ip = requests.get('https://api.ipify.org').text.strip()
 loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 'https://ip-api.com/', 'Content-Type': 'application/json; charset=utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36'}).json()['country_name'].upper()
 	
 def logo():
-	os.system('echo "\n ,-.                            
-       ___,---.__          /'|`\          __,---,___       
-    ,-'    \`    `-.____,-'  |  `-.____,-'    //    `-.                                                                 ,'        |           ~'\     /`~           |        `.  
- /      ___//              `. ,'          ,  , \___      \ 
-|    ,-'   `-.__   _         |        ,    __,-'   `-.    |
-|   /          /\_  `   .    |    ,      _/\          \   |                                                           \  |           \ \`-.___ \   |   / ___,-'/ /           |  /                                                            \  \           | `._   `\  |  //'   _,' |           /  /                                                               `-.\         /'  _ `---'' , . ``---' _  `\         /,-'                                                                  ``       /     \    ,='/ \`=.    /     \       ''                                                                             |__   /|\_,--.,-.--,--._/|\   __|                                                                                     /  `./  \`\ |  |  | /,//' \,'  \              
-        /   /     ||--+--|--+-/-|     \   \                
-           |   |     /'\_\_\ | /_/_/`\     |   |           
-            \   \__, \_     `~'     _/ .__/   /                         `-._,-'   `-._______,-'   `-._,-'
+	                       `-._,-'   `-._______,-'   `-._,-'
 def main():
 	os.system("clear")
 	logo()
