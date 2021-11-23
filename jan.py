@@ -7,10 +7,6 @@
 
 
 
-[1;93m{~} [0;92mAUTHOR > [1;96mSyed_Ahmed_Shah
-[1;92m{~} [0;95mFACEBOOK > [1;94m‎‎MASOOM_LARKA (D3V1L)
-[1;94m{~} [0;96mLINK > [1;91mhttps://www.facebook.com/lathiya.milna
-
 
 
 def logo():
